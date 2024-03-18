@@ -1,0 +1,16 @@
+### GET CATEGORIES
+GET http://localhost:8080/tools
+Host: localhost:8080
+Content-Type: application/json
+
+### SAVE TOOL
+POST http://localhost:8080/tools
+Host: localhost:8080
+Content-Type: application/json
+
+{
+    "title": "Hotel",
+    "link": "https://github.com/typicode/hotel",
+    "description": "Some description",
+    "tags": ["node", "developer", "JS"]
+}
