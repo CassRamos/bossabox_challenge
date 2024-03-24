@@ -9,8 +9,18 @@ Host: localhost:8080
 Content-Type: application/json
 
 {
-    "title": "Hotel",
+    "title": "hotel",
     "link": "https://github.com/typicode/hotel",
     "description": "Some description",
-    "tags": ["node", "developer", "JS"]
+    "tags": ["something", "developer", "JS"]
 }
+
+### GET BY TAG
+GET http://localhost:8080/tools/tag?tags=developer
+Host: localhost:8080
+Content-Type: application/json
+
+### DELETE BY ID
+DELETE http://localhost:8080/tools?id=1
+Host: localhost:8080
+Content-Type: application/json
